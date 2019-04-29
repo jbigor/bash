@@ -1,3 +1,5 @@
+1.
+
 #!/bin/bash
     
 for file in *txt
@@ -9,3 +11,10 @@ do
 mv tempfile $file
 
 done 
+
+2. 
+
+grep -a authentication failure /var/log/auth.log
+
+3.
+
