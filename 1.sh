@@ -2,7 +2,7 @@
 
 #!/bin/bash
     
-for file in *txt
+for file in 100.txt
 
 do
  	grep -v "^[[:space:]]" $file | tr -d "\r" >tempfile
