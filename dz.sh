@@ -17,4 +17,15 @@ done
 grep -a authentication failure /var/log/auth.log
 
 3.
+#!/bin/bash
+mkdir -p 20{00..17}/{01..12}
+for i in {2010..2017}
+do
+          
+           for j in {01..12}
+          do
+              
+               mv $i$j*jpg $i/$j
+          done
+done
 
