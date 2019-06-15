@@ -29,3 +29,5 @@ do
           done
 done
 
+4.
+rsync -avzh --progress root@old-server-ip:/opt/ /opt/
